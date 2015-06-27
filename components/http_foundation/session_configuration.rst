@@ -212,8 +212,6 @@ response headers.
 
     For example, you may set it to PHP's default value during construction:
 
-    Example usage::
-
         use Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage;
 
         $options['cache_limiter'] = session_cache_limiter();
